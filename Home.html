@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HEXTEK</title>
+    <link rel="stylesheet" href="Home.css">
+    <link rel="stylesheet" href="LHome.css">
+    <script src="Home.js" defer></script>
+</head>
+
+<body>
+    <header id="cabeca">
+        <img src="IMGS/Simble.png" alt="">
+        <h1>HEXTEK</h1>
+
+        <div class="cabecalho">
+            <div class="pesq">
+                <input type="text" placeholder="O que deseja ouvir?" id="pesq">
+            </div>
+            <div class="toggle-container">
+                <span>🌙</span>
+                <label class="toggle-switch">
+                    <input type="checkbox" id="modeToggle">
+                    <span class="slider"></span>
+                </label>
+                <span>🌞</span>
+            </div>
+        </div>
+    </header>
+
+    <div class="tela">
+        <div class="musicas">
+            <section id="secao">
+                <h1>BIBLIOTECA</h1>
+                <hr>
+                <button id="playlist">CRIAR NOVA PLAYLIST</button>
+                <button id="suas">SUAS PLAYLISTS</button>
+            </section>
+
+            <section id="player">
+                <h1>Tocando</h1>
+                <hr>
+                <audio controls id="audio">
+                    <source src="" id="audioSource">
+                </audio>
+                <h5>Trabalho de Kaiser Silva, Heitor Lisboa e Antônio Phillipe(líder chibata)</h5>
+            </section>
+        </div>
+        <section id="main">
+            <div class="musicas">
+                <h1>ROCK</h1>
+                <hr>
+                <div class="rock">
+                    <div class="imageContainer" data-name="Linkin Park" data-music="Linkin Park">
+                        <img src="IMGS/Linkin Park.jpg" alt="Linkin Park" id="Linkin Park">
+                        <p>Linkin Park</p>
+                    </div>
+                    <div class="imageContainer" data-name="Metallica">
+                        <img src="IMGS/Metallica.jpg" alt="Metallica">
+                        <p>Metallica</p>
+                    </div>
+                    <div class="imageContainer" data-name="Nirvana">
+                        <img src="IMGS/Nirvana.jpg" alt="Nirvana" id="Nirvana">
+                        <p>Nirvana</p>
+                    </div>
+                    <div class="imageContainer" data-name="Aerosmith">
+                        <img src="IMGS/Aerosmith.jpg" alt="Aerosmith">
+                        <p>Aerosmith</p>
+                    </div>
+                    <div class="imageContainer" data-name="Queen">
+                        <img src="IMGS/Queen.jpg" alt="Queen">
+                        <p>Queen</p>
+                    </div>
+                    <div class="imageContainer" data-name="Gorillaz">
+                        <img src="IMGS/Groillaz.jpg" alt="Gorillaz">
+                        <p>Gorillaz</p>
+                    </div>
+                    <div class="imageContainer" data-name="Weezer" data-music="Weezer">
+                        <img src="IMGS/Weezer.jpg" alt="Weezer" id="Weezer">
+                        <p>Weezer</p>
+                    </div>
+                </div>
+                <h1>HIP HOP</h1>
+                <hr>
+                <div class="hiphop">
+                    <div class="imageContainer" data-name="Kanye West" data-music="Kanye West">
+                        <img src="IMGS/YE.jpg" alt="Kanye West" id="Kanye West">
+                        <p>Kanye West</p>
+                    </div>
+                    <div class="imageContainer" data-name="Kendrick Lamar" data-music="Kdot">
+                        <img src="IMGS/Kendrick.jpg" alt="Kdot" id="Kdot">
+                        <p>Kendrick Lamar</p>
+                    </div>
+                    <div class="imageContainer" data-name="Tyler, the Creator">
+                        <img src="IMGS/Tyler.jpg" alt="Tyler, the Creator">
+                        <p>Tyler</p>
+                    </div>
+                    <div class="imageContainer" data-name="Frank Ocean">
+                        <img src="IMGS/Frank.jpg" alt="Frank Ocean">
+                        <p>Frank Ocean</p>
+                    </div>
+                    <div class="imageContainer" data-name="MF DOOM" data-music="MF DOOM">
+                        <img src="IMGS/DOOM.jpg" alt="MF DOOM" id="MF DOOM">
+                        <p>MF DOOM</p>
+                    </div>
+                    <div class="imageContainer" data-name="Juice Wrld">
+                        <img src="IMGS/Juice.jpg" alt="Juice Wrld">
+                        <p>Juice Wrld</p>
+                    </div>
+                    <div class="imageContainer" data-name="2pac">
+                        <img src="IMGS/2pac.jpg" alt="2pac">
+                        <p>2pac</p>
+                    </div>
+                </div>
+                <h1>POP</h1>
+                <hr>
+                <div class="rock">
+                    <div class="imageContainer" data-name="Byoncé">
+                        <img src="IMGS/Byoncé.jpg" alt="Byoncé">
+                        <p>Byoncé</p>
+                    </div>
+                    <div class="imageContainer" data-name="Taylor Swift">
+                        <img src="IMGS/Taylor.jpg" alt="Taylor Swift">
+                        <p>Taylor Swift</p>
+                    </div>
+                    <div class="imageContainer" data-name="Michael Jackson">
+                        <img src="IMGS/MJ.jpg" alt="Michael Jackson">
+                        <p>Michael Jackson</p>
+                    </div>
+                    <div class="imageContainer" data-name="Lady Gaga">
+                        <img src="IMGS/Lady.jpg" alt="Lady Gaga">
+                        <p>Lady Gaga</p>
+                    </div>
+                    <div class="imageContainer" data-name="Bruno Mars">
+                        <img src="IMGS/Bruno.jpg" alt="Bruno Mars">
+                        <p>Bruno Mars</p>
+                    </div>
+                    <div class="imageContainer" data-name="Lana del Rey">
+                        <img src="IMGS/pepsi.jpg" alt="Lana del Rey">
+                        <p>Lana del Rey</p>
+                    </div>
+                    <div class="imageContainer" data-name="Bllie Eilish">
+                        <img src="IMGS/Bilie.jpg" alt="Bllie Eilish">
+                        <p>Bllie Eilish</p>
+                    </div>
+            </div>
+            
+        </section>
+
+
+    </div>
+
+</body>
+</html>
