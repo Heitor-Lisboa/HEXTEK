@@ -19,4 +19,4 @@ Sistema web em desenvolvimento de reprodução de música com interface interati
 3. Abra e execute o arquivo `Home.html`
 
 ## Preview
-![pint da tela inicial](hextek.png)
+![pint da tela inicial](assets/hextek.png)
