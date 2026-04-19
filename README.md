@@ -15,7 +15,8 @@ Sistema web em desenvolvimento de reprodução de música com interface interati
 
 ## Como usar
 1. Baixe o projeto
-2. Abra o arquivo `Home.html`
+2. extraia os arquivos
+3. Abra e execute o arquivo `Home.html`
 
 ## Preview
 ![pint da tela inicial](hextek.png)
