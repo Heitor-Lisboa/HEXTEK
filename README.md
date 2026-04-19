@@ -1,5 +1,21 @@
-## Projeto HEXTEK
-Player de música web completo com busca de artistas, tema claro/escuro, interface responsiva e tela de login.
+# HEXTEK
 
-Tecnologias: HTML, CSS e JavaScript
-Projeto desenvolvido para praticar front-end e design responsivo.
+Sistema web de reprodução de música com interface interativa.
+
+## Funcionalidades
+- Player de música
+- Pesquisa de artistas
+- Interface responsiva
+- Tema claro/escuro
+
+## Tecnologias
+- HTML
+- CSS
+- JavaScript
+
+## Como usar
+1. Baixe o projeto
+2. Abra o arquivo `Home.html`
+
+## Preview
+[pint da tela inicial]
