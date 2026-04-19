@@ -31,11 +31,11 @@ document.addEventListener('DOMContentLoaded', function () {
     
     const audio = document.getElementById("audio");
 
-    const musicaLP = "AUDIO/Linkinpark.mp3";
-    const musicaYE = "AUDIO/YE.mp3";
-    const musicaDO = "AUDIO/DOOM.mp3";
-    const musicaKdot = "AUDIO/Kendrick.mp3";
-    const musicaWE = "AUDIO/Weezer.mp3";
+    const musicaLP = "../../AUDIO/Linkinpark.mp3";
+    const musicaYE = "../../AUDIO/YE.mp3";
+    const musicaDO = "../../AUDIO/DOOM.mp3";
+    const musicaKdot = "../../AUDIO/Kendrick.mp3";
+    const musicaWE = "../../AUDIO/Weezer.mp3";
 
     fotoLP.addEventListener("click", function() {
         audio.src = musicaLP;
