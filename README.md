@@ -1,20 +1,11 @@
-# HEXTEK
+Projeto HEXTEK
 
-## Funcionalidade
-- Interface interativa baseada em JavaScript
-- Manipulação dinâmica de elementos na tela
-- Resposta a ações do usuário (eventos)
-- Estruturação de layout com HTML e CSS
-  
-## Tecnologias
-- HTML
-- CSS
-- JavaScript
+Aplicação web de reprodução musical com:
+- Player de áudio
+- Busca de artistas
+- Tema claro/escuro
+- Interface responsiva
+- Tela de login
 
-## Objetivo
-Desenvolver uma aplicação prática para consolidar conhecimentos em desenvolvimento web, com foco na criação de interfaces e comportamento dinâmico no navegador.
-
-## Como executar
-1. Faça o download ou clone o repositório:
-   ```bash
-   git clone https://github.com/vugnares-sreo/HEXTEK
+Tecnologias:
+HTML, CSS, JavaScript
