@@ -1,6 +1,6 @@
 # HEXTEK
 
-Sistema web em desenvolvimento de reprodução de música com interface interativa.
+Sistema web (em desenvolvimento) de reprodução de música com interface interativa.
 
 ## Funcionalidades
 - Player de música
